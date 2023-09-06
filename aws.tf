@@ -3,6 +3,6 @@ resource "aws_instance" "yousuff-tfinstance" {
  instance_type = "t2.micro"
  count = 1
  tags = {
-    Name = "yousuff-tfinstance"
+    Name = "yousuff-tfinstance-2"
  }
  }
